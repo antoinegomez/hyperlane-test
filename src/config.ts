@@ -1,8 +1,6 @@
 import { MultiProvider } from "@hyperlane-xyz/sdk";
 import { ChainMetadata, RouterConfig, chainMetadata } from '@hyperlane-xyz/sdk';
 
-export type HelloWorldConfig = RouterConfig;
-
 let mp: MultiProvider | null = null;
 
 export type ChainConfig = {
