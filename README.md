@@ -40,6 +40,8 @@ Options:
 
 `./cli send -o sepolia --originRpcUrl https://ethereum-sepolia.publicnode.com -d bsctestnet -m Emergence`
 
+![send screenshot](docs/send_cli.png)
+
 ## search messages
 
 Search messages sent 
@@ -68,3 +70,5 @@ Options:
 *Sample command:*
 
 `./cli search -c sepolia --rpcUrl https://ethereum-sepolia.publicnode.com '[{"destinationDomain":97,"senderAddress":"0x139c5080A98aBB134afe140d1121F820380eDFCc"}]'`
+
+![search screenshot](docs/search_cli.png)
